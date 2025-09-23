@@ -187,7 +187,9 @@ li.nav-item {
   background: #fff;
   z-index: 9;
 }
-
+.bg-light_clr{
+  background-color: #fff;
+}
 /*===================media query starts here===================================*/
 
 
