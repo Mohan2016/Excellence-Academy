@@ -200,6 +200,12 @@ li.nav-item {
 .logo{font-size: 18px;}
 .logo .icon{font-size: 30px;}
 
+.footer-bottom {font-size: 14px;}
+button.navbar-toggler {background: #0e244c;}
+#impact{background: repeating-linear-gradient(180deg, #000000b0, #161c34fa 674px);}
+
+
+
 }
 @media only screen and (min-width:360px) and (max-width:639px) 
 {
@@ -208,7 +214,7 @@ li.nav-item {
 
 .footer-bottom {font-size: 14px;}
 button.navbar-toggler {background: #0e244c;}
-
+#impact{background: repeating-linear-gradient(180deg, #000000b0, #161c34fa 674px);}
 }
 
 
