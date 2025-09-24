@@ -206,6 +206,11 @@ li.nav-item {
 .logo{font-size: 18px;}
 .logo .icon{font-size: 30px;}
 
+.footer-bottom {font-size: 14px;}
+button.navbar-toggler {background: #0e244c;}
+
+}
+
 
 @media only screen and (min-width:480px) and (max-width:639px) {
 
