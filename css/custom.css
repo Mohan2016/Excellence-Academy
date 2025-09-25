@@ -2,6 +2,7 @@ h5.card-title {
 font-weight: 600;
 text-transform: uppercase;
 color: #0e244c;
+font-size: 18px;
 }
 button.navbar-toggler {
     background: #000;
@@ -108,18 +109,18 @@ footer a:hover {
   text-decoration: none;
 }
 .footer_txt p a{
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.5px;
 }
 .list-unstyled li a{
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.5px;
 }
 .navbar-nav .nav-link {
-  font-weight: 500;
+  font-weight: 400;
     text-transform: capitalize;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 15px;
     color: #000 !important;
 }
 .navbar-nav .nav-link:hover {
@@ -129,9 +130,9 @@ body {
   padding-top: 100px; /* adjust based on header height */
 }
 .footer-bottom {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.5px;
-    font-weight: 500;
+    font-weight: 400;
 }
 html {
   scroll-behavior: smooth;
@@ -140,7 +141,7 @@ html {
 
 .logo {
   font-family: 'Poppins', sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 600;
   color: #ffb900;
   display: flex;
@@ -165,8 +166,9 @@ li.nav-item {
 }
 .text-secondary_1 {
     color: #fff !important;
-        font-size: 15px;
-    letter-spacing: 1px;
+        font-size: 14px;
+    /* letter-spacing: 1px; */
+    font-weight: 500;
 }
 #courses_cat{position: relative;}
 #courses_cat::after{
@@ -197,12 +199,12 @@ li.nav-item {
 @media only screen and (min-width:320px) and (max-width:479px) 
 {
 
-.logo{font-size: 18px;}
-.logo .icon{font-size: 30px;}
+.logo{font-size: 14px;}
+.logo .icon{font-size: 25px;}
 
 .footer-bottom {font-size: 14px;}
 button.navbar-toggler {background: #0e244c;}
-#impact{background: repeating-linear-gradient(180deg, #000000b0, #161c34fa 674px);}
+#impact{background: repeating-linear-gradient(180deg, #000000b0, #161c34fa 698px) !important;}
 
 
 
@@ -214,7 +216,7 @@ button.navbar-toggler {background: #0e244c;}
 
 .footer-bottom {font-size: 14px;}
 button.navbar-toggler {background: #0e244c;}
-#impact{background: repeating-linear-gradient(180deg, #000000b0, #161c34fa 674px);}
+#impact{background: repeating-linear-gradient(180deg, #000000b0, #161c34fa 674px) !important;}
 }
 
 

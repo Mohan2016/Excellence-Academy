@@ -5,7 +5,7 @@ body {
   font-weight: 300;
   font-size: 1.1rem;
   scroll-behavior: smooth;
-  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
 }
 
 ::-moz-selection {
@@ -666,7 +666,7 @@ a:hover {
   line-height: 1.5;*/
 
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 600;
   background: #ffb900;
   line-height: 1.5;
   /* color: #871010; */
@@ -678,7 +678,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .site-blocks-cover h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 
