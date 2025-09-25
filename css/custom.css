@@ -137,8 +137,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-
 .logo {
   font-family: 'Poppins', sans-serif;
   font-size: 22px;
@@ -184,7 +182,12 @@ li.nav-item {
     background-repeat: repeat;
     z-index: -1;
 }
-
+#impact{
+  background: #000 url(../images/footer.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .card-body{
   background: #fff;
   z-index: 9;
