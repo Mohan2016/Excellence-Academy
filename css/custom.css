@@ -20,7 +20,7 @@ margin-bottom: 0.5rem;
 p.card-text{
         font-size: 15px;
     /*text-align: justify;*/
-    color: #333;
+    color: #0e244c;
 }
 p.txt_modify{
     font-size: 15px;
@@ -28,10 +28,10 @@ p.txt_modify{
     margin: 0;
 }
 .card ol li{
-  color: #333;
+  color: #0e244c;
     font-size: 15px;
     list-style-type: disc;
-    font-weight: 500;
+    font-weight: 400;
 }
 .about_ctnt{}
 .about_ctnt h2{
@@ -101,7 +101,7 @@ p.txt_modify{
 
 
 h3.display-4 {
-  color: #ffb900; /* gold highlight for numbers */
+  color: #e56f3b; /* gold highlight for numbers */
 }
 
 footer a:hover {
@@ -117,14 +117,15 @@ footer a:hover {
   letter-spacing: 0.5px;
 }
 .navbar-nav .nav-link {
-  font-weight: 400;
-    text-transform: capitalize;
+  font-weight: 600;
+    text-transform: uppercase;
     padding: 10px 15px;
     font-size: 15px;
-    color: #000 !important;
+    color:#0e244c !important;
+    letter-spacing: 1px;
 }
 .navbar-nav .nav-link:hover {
-  color: #ffd700 !important; /* golden hover effect */
+  color: #0e244c !important; /* golden hover effect */
 }
 body {
   padding-top: 100px; /* adjust based on header height */
@@ -141,17 +142,18 @@ html {
   font-family: 'Poppins', sans-serif;
   font-size: 22px;
   font-weight: 600;
-  color: #ffb900;
+  color: #e56f3b;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 .logo .icon {
   font-size: 36px;
-  color: #FFD700; /* Gold trophy */
+  color: #e56f3b; /* Gold trophy */
 }
 .logo .text strong {
-  color: #000; /* Blue for "Excellence" */
+  color: #0e244c; /* Blue for "Excellence" */
+  font-weight: 600;
 }
 
 li.nav-item {
@@ -165,7 +167,7 @@ li.nav-item {
 .text-secondary_1 {
     color: #fff !important;
         font-size: 14px;
-    /* letter-spacing: 1px; */
+    letter-spacing: 0.5px;
     font-weight: 500;
 }
 #courses_cat{position: relative;}
@@ -194,6 +196,13 @@ li.nav-item {
 }
 .bg-light_clr{
   background-color: #fff;
+}
+.fixed-top{
+  box-shadow: 0 4px 7px #33333336;
+    /* border-bottom: 1px solid #0e244c; */
+}
+.text-warning_clr{
+  color: #e56f3b;
 }
 /*===================media query starts here===================================*/
 
